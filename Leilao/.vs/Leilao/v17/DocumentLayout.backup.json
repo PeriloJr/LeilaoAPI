@@ -3,12 +3,112 @@
   "WorkspaceRootPath": "E:\\LeilaoAPI\\Leilao\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\controllers\\auctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\controllers\\auctioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\client\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\client\\clientregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\client\\clientregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\auction\\auctionregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\auction\\auctionregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\data\\auctiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\data\\auctiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\auction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\auction\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\repository\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\repository\\auctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\repository\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\repository\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\auction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\auction\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\financialinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\financialinstitution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\LeilaoAPI\\Leilao\\Leilao\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Leilao\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|e:\\leilaoapi\\leilao\\leilao\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E958696-4E77-480D-BBA0-D619434FCEC7}|Leilao\\Leilao.csproj|solutionrelative:leilao\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +118,357 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Leilao\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Leilao\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ClientRegister.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Client\\ClientRegister.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Client\\ClientRegister.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Client\\ClientRegister.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Client\\ClientRegister.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-26T15:32:31.196Z",
+              "WhenOpened": "2025-02-26T19:08:21.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuctionRegister.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\AuctionRegister.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Auction\\AuctionRegister.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\AuctionRegister.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Auction\\AuctionRegister.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T16:58:45.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "Leilao\\Repository\\ClientRepository.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\ClientRepository.cs",
+              "RelativeToolTip": "Leilao\\Repository\\ClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:51:22.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Client\\Index.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Client\\Index.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Client\\Index.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Client\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T19:05:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuctionDbContext.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Data\\AuctionDbContext.cs",
+              "RelativeDocumentMoniker": "Leilao\\Data\\AuctionDbContext.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Data\\AuctionDbContext.cs",
+              "RelativeToolTip": "Leilao\\Data\\AuctionDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:15:43.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AuctionController.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\AuctionController.cs",
+              "RelativeDocumentMoniker": "Leilao\\Controllers\\AuctionController.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\AuctionController.cs",
+              "RelativeToolTip": "Leilao\\Controllers\\AuctionController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:47:14.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "Leilao\\Repository\\IClientRepository.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\IClientRepository.cs",
+              "RelativeToolTip": "Leilao\\Repository\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:50:39.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Property.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\Property.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Property.cs",
+              "RelativeToolTip": "Leilao\\Models\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:36:34.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Client.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\Client.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Client.cs",
+              "RelativeToolTip": "Leilao\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:20:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Leilao\\Controllers\\ClientController.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Leilao\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:00:34.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Program.cs",
+              "RelativeDocumentMoniker": "Leilao\\Program.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Program.cs",
+              "RelativeToolTip": "Leilao\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:06:23.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Leilao\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Leilao\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T15:30:27.655Z",
+              "WhenOpened": "2025-02-26T18:42:01.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T19:08:28.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\Index.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Auction\\Index.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\Index.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Auction\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T19:06:14.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250226192102_MyFirstMigratioszzz.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs",
+              "RelativeDocumentMoniker": "Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs",
+              "RelativeToolTip": "Leilao\\Migrations\\20250226192102_MyFirstMigratioszzz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:21:02.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuctionRepository.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\AuctionRepository.cs",
+              "RelativeDocumentMoniker": "Leilao\\Repository\\AuctionRepository.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\AuctionRepository.cs",
+              "RelativeToolTip": "Leilao\\Repository\\AuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:41:47.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:34:29.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuctionRepository.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\IAuctionRepository.cs",
+              "RelativeDocumentMoniker": "Leilao\\Repository\\IAuctionRepository.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Repository\\IAuctionRepository.cs",
+              "RelativeToolTip": "Leilao\\Repository\\IAuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:42:27.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250226190250_MyFirstMigratioszz.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs",
+              "RelativeDocumentMoniker": "Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs",
+              "RelativeToolTip": "Leilao\\Migrations\\20250226190250_MyFirstMigratioszz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:02:50.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Bid.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\Bid.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Bid.cs",
+              "RelativeToolTip": "Leilao\\Models\\Bid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:20:44.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FinancialInstitution.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\FinancialInstitution.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\FinancialInstitution.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\FinancialInstitution.cs",
+              "RelativeToolTip": "Leilao\\Models\\FinancialInstitution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:17:57.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\Details.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Auction\\Details.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Auction\\Details.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Auction\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T16:08:49.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Auction.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Auction.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\Auction.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Auction.cs",
+              "RelativeToolTip": "Leilao\\Models\\Auction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T16:39:16.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\appsettings.json",
+              "RelativeDocumentMoniker": "Leilao\\appsettings.json",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\appsettings.json",
+              "RelativeToolTip": "Leilao\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T16:11:41.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "libman.json",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\libman.json",
+              "RelativeDocumentMoniker": "Leilao\\libman.json",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\libman.json",
+              "RelativeToolTip": "Leilao\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T16:12:41.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Leilao\\Models\\Vehicle.cs",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Models\\Vehicle.cs",
+              "RelativeToolTip": "Leilao\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:39:28.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Leilao\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\LeilaoAPI\\Leilao\\Leilao\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Leilao\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T15:35:57.019Z",
               "EditorCaption": ""
             }
           ]

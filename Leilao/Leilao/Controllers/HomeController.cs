@@ -1,17 +1,13 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Leilao.Models;
+using System.Linq.Expressions;
 
 namespace Leilao.Controllers;
 
 public class HomeController : Controller
 {
     public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
     {
         return View();
     }
