@@ -1,0 +1,54 @@
+﻿@model ProductViewModel
+
+<form method="post" asp-controller="ProductView" asp-action="ProductEdit" method="post">
+    <div class="form-group">
+        <label for="productType">Tipo de Produto</label>
+        @Html.DropDownListFor(model => model.ProductType, new List<SelectListItem>
+        {
+        new SelectListItem { Value = "Veiculo", Text = "Veículo" },
+        new SelectListItem { Value = "Imovel", Text = "Imóvel" }
+        }, new { @class = "form-control", onchange = "toggleFields()" })
+    </div>
+
+    <div class="form-group" id="vehicleFields" style="display:none;">
+        <label for="Model">Modelo</label>
+        <input type="text" class="form-control" id="Model" name="Model" value="@Model.Model" />
+
+        <label for="Brand">Marca</label>
+        <input type="text" class="form-control" id="Brand" name="Brand" value="@Model.Brand" />
+
+        <label for="Year">Ano</label>
+        <input type="number" class="form-control" id="Year" name="Year" value="@Model.Year" />
+    </div>
+
+    <div class="form-group" id="propertyFields" style="display:none;">
+        <label for="Type">Tipo de Imóvel</label>
+        <input type="text" class="form-control" id="Type" name="Type" value="@Model.Type" />
+
+        <label for="Address">Endereço</label>
+        <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" />
+    </div>
+
+    <div class="form-group">
+        <label for="MinimumValue">Valor Mínimo</label>
+        <input type="number" class="form-control" id="MinimumValue" name="MinimumValue" value="@Model.MinimumValue" />
+
+        <label for="MinimumIncrement">Incremento Mínimo</label>
+        <input type="number" class="form-control" id="MinimumIncrement" name="MinimumIncrement" value="@Model.MinimumIncrement" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+<script>
+    function toggleFields() {
+        var productType = document.getElementById("productType").value;
+        if (productType == "Veiculo") {
+            document.getElementById("vehicleFields").style.display = "block";
+            document.getElementById("propertyFields").style.display = "none";
+        } else if (productType == "Imovel") {
+            document.getElementById("vehicleFields").style.display = "none";
+            document.getElementById("propertyFields").style.display = "block";
+        }
+    }
+</script>

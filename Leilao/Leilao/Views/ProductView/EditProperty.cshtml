@@ -1,0 +1,28 @@
+﻿@model Property
+
+<h2>Editar Imóvel</h2>
+
+<form asp-controller="Property" asp-action="EditProperty" method="post">
+    <input type="hidden" asp-for="Id">
+    <div class="form-group">
+        <label for="Type">Tipo</label>
+        <input type="text" class="form-control" id="Type" name="Type" value="@Model.Type" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Address">Endereço</label>
+        <input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MinumumValue">Valor Mínimo</label>
+        <input type="number" class="form-control" id="MinumumValue" name="MinumumValue" value="@Model.MinumumValue" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MinimumIncrement">Incremento Mínimo</label>
+        <input type="number" class="form-control" id="MinimumIncrement" name="MinimumIncrement" value="@Model.MinimumIncrement" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

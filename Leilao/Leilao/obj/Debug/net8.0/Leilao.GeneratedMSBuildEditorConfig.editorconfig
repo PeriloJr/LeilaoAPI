@@ -40,10 +40,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/LeilaoAPI/Leilao/Leilao/Views/Auction/ProductManagement.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxQcm9kdWN0TWFuYWdlbWVudC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/LeilaoAPI/Leilao/Leilao/Views/Client/ClientEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +58,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/LeilaoAPI/Leilao/Leilao/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/ProductView/EditProperty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFZpZXdcRWRpdFByb3BlcnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/ProductView/EditVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFZpZXdcRWRpdFZlaGljbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/ProductView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFZpZXdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/ProductView/ProductEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFZpZXdcUHJvZHVjdEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/ProductView/ProductRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFZpZXdcUHJvZHVjdFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/LeilaoAPI/Leilao/Leilao/Views/Shared/Error.cshtml]

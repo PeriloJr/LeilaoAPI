@@ -1,0 +1,79 @@
+﻿@model List<object>
+
+@{
+    ViewData["Title"] = "Lista de Produtos";
+}
+
+<a class="btn btn-primary" role="button" asp-controller="ProductView" asp-action="ProductRegister">Cadastrar produto</a>
+
+<h2>Lista de Produtos</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tipo</th>
+            <th>Nome/Modelo</th>
+            <th>Detalhes</th>
+            <th>Valor Mínimo</th>
+            <th>Incremento Mínimo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            int itemId = item is Vehicle ? ((Vehicle)item).Id : ((Property)item).Id;
+            string itemType = item is Vehicle ? "Vehicle" : "Property";
+
+            <tr id="row-@itemType-@itemId">
+                @if (item is Vehicle vehicle)
+                {
+                    <td>Veículo</td>
+                    <td>@vehicle.Brand - @vehicle.Model</td>
+                    <td>Ano: @vehicle.Year</td>
+                    <td>@vehicle.MinimumValue.ToString("C")</td>
+                    <td>@vehicle.MinimumIncrement.ToString("C")</td>
+                    <td>
+                        <a role="button" class="btn btn-primary" asp-controller="ProductView" asp-action="Edit" asp-route-id="@vehicle.Id" asp-route-type="Vehicle">Editar</a>
+                        <button class="btn btn-danger" onclick="deleteProduct(@vehicle.Id, 'Vehicle')">Remover</button>
+                    </td>
+                }
+                else if (item is Property property)
+                {
+                    <td>Imóvel</td>
+                    <td>@property.Type</td>
+                    <td>Endereço: @property.Address</td>
+                    <td>@property.MinumumValue.ToString("C")</td>
+                    <td>@property.MinimumIncrement.ToString("C")</td>
+                    <td>
+                        <a role="button" class="btn btn-primary" asp-controller="ProductView" asp-action="Edit" asp-route-id="@property.Id" asp-route-type="Property">Editar</a>
+                        <button class="btn btn-danger" onclick="deleteProduct(@property.Id, 'Property')">Remover</button>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function deleteProduct(id, type) {
+        if (confirm("Tem certeza que deseja excluir este item?")) {
+            fetch(`/${type}/Delete/${id}`, { method: "DELETE" })
+            .then(response => {
+                if (response.ok) {
+                    setTimeout(() => {
+                        let row = document.getElementById(`row-${type}-${id}`);
+                        if (row) {
+                            row.remove();
+                        } else {
+                            console.error("Elemento não encontrado:", `row-${type}-${id}`);
+                        }
+                    }, 100);
+
+                } else {
+                    alert("Erro ao remover o item.");
+                }
+            })
+            .catch(error => console.error("Erro na requisição:", error));
+        }
+    }
+</script>

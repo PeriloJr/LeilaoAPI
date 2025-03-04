@@ -1,0 +1,33 @@
+﻿@model Vehicle
+
+<h2>Editar Veículo</h2>
+
+<form asp-controller="Vehicle" asp-action="EditVehicle" method="post">
+    <input type="hidden" asp-for="Id">
+    <div class="form-group">
+        <label for="Brand">Marca</label>
+        <input type="text" class="form-control" id="Brand" name="Brand" value="@Model.Brand" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Model">Modelo</label>
+        <input type="text" class="form-control" id="Model" name="Model" value="@Model.Model" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Year">Ano</label>
+        <input type="number" class="form-control" id="Year" name="Year" value="@Model.Year" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MinimumValue">Valor Mínimo</label>
+        <input type="number" class="form-control" id="MinimumValue" name="MinimumValue" value="@Model.MinimumValue" required />
+    </div>
+
+    <div class="form-group">
+        <label for="MinimumIncrement">Incremento Mínimo</label>
+        <input type="number" class="form-control" id="MinimumIncrement" name="MinimumIncrement" value="@Model.MinimumIncrement" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>

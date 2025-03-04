@@ -31,20 +31,10 @@ namespace Leilao.Controllers
         {
             return View();
         }
-        public IActionResult ProductManagement()
-        {
-            return View();
-        }
         [HttpPost]
         public IActionResult CreateAuction(Auction auction)
         {
             _auctionRepository.Add(auction);
-            return RedirectToAction("Index");
-        }
-        [HttpPost]
-        public IActionResult CreateProduct(ProductViewModel productViewModel)
-        {
-            _auctionRepository.CreateProduct(productViewModel);
             return RedirectToAction("Index");
         }
     }
