@@ -7,6 +7,8 @@ builder.Services.AddDbContext<AuctionDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
+builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

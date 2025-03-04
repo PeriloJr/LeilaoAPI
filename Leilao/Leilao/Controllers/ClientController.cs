@@ -1,6 +1,7 @@
 ﻿using Leilao.Models;
 using Leilao.Repository;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Leilao.Controllers
 {
@@ -15,7 +16,7 @@ namespace Leilao.Controllers
         {
             Client client = new Client();
 
-            List<Client> clients = _clientRepository.ReturnAll();
+            List<Client> clients = _clientRepository.GetAll();
 
             return View(clients);
         }
@@ -23,11 +24,28 @@ namespace Leilao.Controllers
         {
             return View();
         }
+        public IActionResult ClientEdit(int id)
+        {
+            Client client = _clientRepository.GetById(id);
+            return View(client);
+        }
         [HttpPost]
         public IActionResult CreateClient(Client client)
         {
-            _clientRepository.AddClient(client);
+            _clientRepository.Add(client);
             return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult EditClient(Client client)
+        {
+            _clientRepository.Update(client);
+            return RedirectToAction("Index");
+        }
+        [HttpDelete]
+        public IActionResult RemoveClient(Client client)
+        {
+            _clientRepository.Delete(client);
+            return Ok();
         }
     }
 }

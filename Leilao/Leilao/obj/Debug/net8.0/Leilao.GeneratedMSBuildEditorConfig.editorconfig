@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/LeilaoAPI/Leilao/Leilao/Views/Auction/ProductManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXVjdGlvblxQcm9kdWN0TWFuYWdlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/LeilaoAPI/Leilao/Leilao/Views/Client/ClientEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/LeilaoAPI/Leilao/Leilao/Views/Client/ClientRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50XENsaWVudFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

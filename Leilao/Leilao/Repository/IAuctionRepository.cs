@@ -2,9 +2,8 @@
 
 namespace Leilao.Repository
 {
-    public interface IAuctionRepository
+    public interface IAuctionRepository : IRepository<Auction>
     {
-        List<Auction> ReturnAll();
-        Auction AddAuction(Auction auction);
+        public void CreateProduct(ProductViewModel productViewModel);
     }
 }

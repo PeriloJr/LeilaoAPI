@@ -2,7 +2,7 @@
 
 namespace Leilao.Repository
 {
-    public interface IClientRepository : IRepository<Client>
+    public interface IPropertyRepository : IRepository<Property>
     {
     }
 }

@@ -1,0 +1,30 @@
+﻿@model Client
+@{
+    ViewData["Title"] = "Editar usuário";
+}
+
+<div class="container mt-5">
+    <h2>Editar Usuário</h2>
+
+    <form asp-controller="Client" asp-action="EditClient" method="post">
+        <input type="hidden" asp-for="Id">
+        <input type="hidden" class="form-control" id="cpf" asp-for="CPF" required maxlength="14" readonly="readonly">
+
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" asp-for="Name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" asp-for="Email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" asp-for="Contact" required placeholder="(99) 99999-9999">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Atualizar</button>
+    </form>
+</div>

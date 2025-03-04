@@ -12,7 +12,5 @@ namespace Leilao.Models
         public decimal MinimumValue { get; set; }
         [Column(TypeName = "decimal(18,2)")]
         public decimal MinimumIncrement { get; set; }
-        public int AuctionId { get; set; } // Relacionamento
-        public Auction? Auction { get; set; }
     }
 }

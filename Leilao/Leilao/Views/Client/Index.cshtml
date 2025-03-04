@@ -14,6 +14,7 @@
             <th scope="col">CPF</th>
             <th scope="col">Email</th>
             <th scope="col">Telefone</th>
+            <th scope="col"></th>
         </tr>
     </thead>
     <tbody>
@@ -21,14 +22,37 @@
         {
             foreach(Client item in Model)
             {
-                <tr>
+                <tr id="row-@item.Id">
                     <td>@item.Name</td>
                     <td>@item.CPF</td>
                     <td>@item.Email</td>
                     <td>@item.Contact</td>
-                    <td><a role="button" class="btn btn-primary" asp-route-id="@item.Id" asp-controller="Auction" asp-action="Details">Atualizar</a></td>
+                    <td>
+                        <div class="btn-group">
+                            <a role="button" class="btn btn-primary" asp-route-id="@item.Id" asp-controller="Client" asp-action="ClientEdit">Atualizar</a>
+                            <button class="btn btn-danger" onclick="confirmDelete(@item.Id)">Excluir</button>
+                        </div>
+                    </td>
                 </tr>
             }
         }
     </tbody>
 </table>
+
+<script>
+        function confirmDelete(id) {
+        if (confirm("Tem certeza que deseja excluir este usuário?")) {
+            fetch(`/Client/RemoveClient/${id}`, {
+                method: "DELETE"
+            })
+            .then(response => {
+                if (response.ok) {
+                    document.getElementById(`row-${id}`).remove();
+                } else {
+                    alert("Erro ao excluir o usuário.");
+                }
+            })
+            .catch(error => console.error("Erro:", error));
+        }
+    }
+</script>

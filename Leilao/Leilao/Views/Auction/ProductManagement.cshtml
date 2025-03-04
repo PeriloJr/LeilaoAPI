@@ -1,0 +1,48 @@
+﻿@model ProductViewModel
+
+<form asp-controller="Auction" asp-action="CreateProduct" method="post">
+    <label>Tipo do Produto</label>
+    <select asp-for="ProductType" id="productType" class="form-control" onchange="toggleFields()">
+        <option value="">Selecione</option>
+        <option value="Veiculo">Veículo</option>
+        <option value="Imovel">Imóvel</option>
+    </select>
+
+    <div id="commonFields">
+        <label>Valor Mínimo</label>
+        <input asp-for="MinimumValue" class="form-control" />
+
+        <label>Incremento Mínimo</label>
+        <input asp-for="MinimumIncrement" class="form-control" />
+    </div>
+
+    <div id="vehicleFields" style="display: none;">
+        <label>Modelo do Veículo</label>
+        <input asp-for="Model" class="form-control" />
+
+        <label>Marca</label>
+        <input asp-for="Brand" class="form-control" />
+
+        <label>Ano</label>
+        <input asp-for="Year" type="number" class="form-control" />
+    </div>
+
+    <div id="propertyFields" style="display: none;">
+        <label>Tipo do Imóvel</label>
+        <input asp-for="Type" class="form-control" />
+
+        <label>Endereço</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
+
+<script>
+    function toggleFields() {
+        let type = document.getElementById("productType").value;
+
+        document.getElementById("vehicleFields").style.display = (type === "Veiculo") ? "block" : "none";
+        document.getElementById("propertyFields").style.display = (type === "Imovel") ? "block" : "none";
+    }
+</script>
