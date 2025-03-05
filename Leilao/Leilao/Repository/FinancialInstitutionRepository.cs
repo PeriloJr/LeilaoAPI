@@ -23,7 +23,7 @@ namespace Leilao.Repository
             FinancialInstitution financialInstitutionDB = GetById(financialInstitution.Id);
             if (financialInstitutionDB == null)
             {
-                if (financialInstitutionDB == null) throw new System.Exception("Veículo não encontrado !");
+                if (financialInstitutionDB == null) throw new System.Exception("Instituição não encontrada !");
                 return false;
             }
 
@@ -46,7 +46,7 @@ namespace Leilao.Repository
         {
             FinancialInstitution financialInstitutionDB = GetById(financialInstitution.Id);
 
-            if (financialInstitutionDB == null) throw new System.Exception("Usuário não encontrado !");
+            if (financialInstitutionDB == null) throw new System.Exception("Instituição não encontrada !");
 
             financialInstitutionDB.Name = financialInstitution.Name;
             financialInstitutionDB.CNPJ = financialInstitution.CNPJ;

@@ -10,7 +10,7 @@ builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IVehicleRepository, VehicleRepository>();
 builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
 builder.Services.AddScoped<IProductViewModel, ProductViewModelRepository>();
-
+builder.Services.AddScoped<IFinancialInstituionRepository, FinancialInstitutionRepository>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

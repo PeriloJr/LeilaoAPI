@@ -1,0 +1,32 @@
+﻿@model FinancialInstitution
+
+@{
+    ViewData["Title"] = "Cadastro de Instituição Financeira";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-controller="FinancialInstitution" asp-action="CreateFI" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Nome</label>
+        <input asp-for="Name" class="form-control" placeholder="Digite o nome da instituição" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="CNPJ" class="form-label">CNPJ</label>
+        <input asp-for="CNPJ" class="form-control" placeholder="00.000.000/0000-00" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Contact" class="form-label">Contato</label>
+        <input asp-for="Contact" class="form-control" placeholder="(00) 00000-0000" required />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">E-mail</label>
+        <input asp-for="Email" type="email" class="form-control" placeholder="instituicao@email.com" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

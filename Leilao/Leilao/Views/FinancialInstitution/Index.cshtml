@@ -1,0 +1,58 @@
+﻿@model List<FinancialInstitution>
+@{
+    ViewData["Title"] = "Gerenciamento de Instituições Financeiras";
+}
+
+<a class="btn btn-primary" role="button" asp-controller="FinancialInstitution" asp-action="FIRegister">Cadastrar Instituição</a>
+
+<p class="h1">Instituições Financeiros</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">CNPJ</th>
+            <th scope="col">Contato</th>
+            <th scope="col">E-mail</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model != null && Model.Any())
+        {
+            foreach(FinancialInstitution item in Model)
+            {
+                <tr id="row-@item.Id">
+                    <td>@item.Name</td>
+                    <td>@item.CNPJ</td>
+                    <td>@item.Contact</td>
+                    <td>@item.Email</td>
+                    <td>
+                        <div class="btn-group">
+                            <a role="button" class="btn btn-primary" asp-route-id="@item.Id" asp-controller="FinancialInstitution" asp-action="FIEdit">Atualizar</a>
+                            <button class="btn btn-danger" onclick="confirmDelete(@item.Id)">Excluir</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<script>
+        function confirmDelete(id) {
+        if (confirm("Tem certeza que deseja excluir esta Instituição Financeira?")) {
+            fetch(`/FinancialInstitution/RemoveFI/${id}`, {
+                method: "DELETE"
+            })
+            .then(response => {
+                if (response.ok) {
+                    document.getElementById(`row-${id}`).remove();
+                } else {
+                    alert("Erro ao excluir o usuário.");
+                }
+            })
+            .catch(error => console.error("Erro:", error));
+        }
+    }
+</script>

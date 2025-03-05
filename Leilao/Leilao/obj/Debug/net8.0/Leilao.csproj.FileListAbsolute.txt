@@ -172,3 +172,11 @@ E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windo
 E:\LeilaoAPI\Leilao\Leilao\obj\Debug\net8.0\Leilao.csproj.AssemblyReference.cache
 E:\LeilaoAPI\Leilao\Leilao\obj\Debug\net8.0\Leilao.csproj.Up2Date
 E:\LeilaoAPI\Leilao\Leilao\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+E:\LeilaoAPI\Leilao\Leilao\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
